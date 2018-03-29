@@ -1,0 +1,14 @@
+<table>
+<thead>
+  <tr>
+    <th>CONTENIDO</th>
+  </tr>
+</thead>
+<tbody>
+  <%- @packages.each do |package| %>
+    <tr>
+      <td><%= package.content %></td>
+    </tr>
+  <% end %>
+</tbody>
+</table>
